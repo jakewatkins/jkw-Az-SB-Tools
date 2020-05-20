@@ -1,0 +1,1 @@
+﻿Endpoint=sb://sbs-usw1-ood-slot2-tst.servicebus.windows.net/;SharedAccessKeyName=SendListenPolicy;SharedAccessKey=NmvJ5A8C3JUWSG5n4jRR0zfZJdfg490YDnBPZXZ1Dow=

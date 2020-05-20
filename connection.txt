@@ -1,0 +1,1 @@
+Endpoint=sb://jkw-svc-bus.servicebus.windows.net/;SharedAccessKeyName=clientPolicy;SharedAccessKey=CSwTU71G4d9FOv5LGoo8yaI2OkJPypg5slJ6a/uUZvQ=

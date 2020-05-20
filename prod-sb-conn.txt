@@ -1,0 +1,1 @@
+﻿Endpoint=sb://sbs-usw1-ood-prd.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=gKoa5i39vjvplbrob/XIHQhQVXjuyJjLA8tdJRxDXi4=

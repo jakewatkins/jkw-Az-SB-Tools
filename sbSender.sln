@@ -1,0 +1,52 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbSender", "sbSender\sbSender.csproj", "{3D80ECB6-0BAF-41EB-9753-39D344125C3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = " SupportFiles", " SupportFiles", "{48A152DF-B01B-4075-9327-9E3BB469BFC7}"
+	ProjectSection(SolutionItems) = preProject
+		connection.txt = connection.txt
+		message.json = message.json
+		personalization-connection.txt = personalization-connection.txt
+		prod-sb-conn.txt = prod-sb-conn.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbDeadLetter", "sbDeadLetter\sbDeadLetter.csproj", "{AB592F79-043A-4108-A0F8-E5A028C43857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzSbHelpers", "AzSbHelpers\AzSbHelpers.csproj", "{D0F6E478-D60B-4993-9462-236B80F1D367}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D80ECB6-0BAF-41EB-9753-39D344125C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D80ECB6-0BAF-41EB-9753-39D344125C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D80ECB6-0BAF-41EB-9753-39D344125C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D80ECB6-0BAF-41EB-9753-39D344125C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB592F79-043A-4108-A0F8-E5A028C43857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB592F79-043A-4108-A0F8-E5A028C43857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB592F79-043A-4108-A0F8-E5A028C43857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB592F79-043A-4108-A0F8-E5A028C43857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F6E478-D60B-4993-9462-236B80F1D367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F6E478-D60B-4993-9462-236B80F1D367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F6E478-D60B-4993-9462-236B80F1D367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F6E478-D60B-4993-9462-236B80F1D367}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.StandardHeader = $4
+		$4.Text = @/*\n\t${FileName}\n\t${AuthorName}\n\t${Date}\n\t\n\t\n*/
+		$0.VersionControlPolicy = $5
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

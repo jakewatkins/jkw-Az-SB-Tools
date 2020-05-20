@@ -1,0 +1,28 @@
+{
+    "ConsumerProfile":
+    {
+        "DignityHomeId":"c838ad84-2da7-4a96-85ae-e0b38082bd65",
+        "FirstName":"zzzz John",
+        "LastName":"zzzz Galt",
+        "DateOfBirth":"1990-01-01T00:00:00",
+        "PreferredName":"zzzz John Galt",
+        "Gender":0,
+        "Status":true,
+        "LastSiteVisit":"2020-05-12T14:10:46.6661599-05:00",
+        "ConsumerSince":"2020-05-12T14:10:46.6651616-05:00"
+    },
+    "ConsumerPreferences":
+    {
+        "DignityHomeId":"c838ad84-2da7-4a96-85ae-e0b38082bd65",
+        "PreferredAddressState":"TX",
+        "PreferredAddressZipCode":"12345",
+        "PreferredCity":"test city",
+        "PreferredEmail":"jkwdev01@gmail.com",
+        "PreferredStreet1":"123 some st",
+        "PreferredStreet2":null,
+        "PreferredPhoneNumber":"123-555-1212",
+        "ProviderPlan":null,
+        "MemberNumber":"7777",
+        "GroupNumber":"1234"
+    }
+}
