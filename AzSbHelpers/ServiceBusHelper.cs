@@ -41,7 +41,8 @@ namespace AzSbHelpers
         }
         public MessageReceiver GetTopicDeadLetterClient()
         {
-            string deadLetterPath = EntityNameHelper.FormatDeadLetterPath("consumerdb.profile.update/ConsumerDB.Profile.Update.CRM");
+            string subscriptionPath = EntityNameHelper.FormatSubscriptionPath(_config.Topic, _config.Subscription);
+            string deadLetterPath = EntityNameHelper.FormatDeadLetterPath(subscriptionPath);
             return new MessageReceiver(_config.Connection, deadLetterPath,ReceiveMode.PeekLock, RetryPolicy.Default, 0);
         }
        
